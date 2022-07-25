@@ -17,303 +17,6 @@
 ; A minus sign “-” in the comment indicates that the glyph name is not
 ; part of the groff-supported special characters.
 
-; # Supplementary Latin letters
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-; u00D0     uppercase eth
-:?*C:\[-D::Ð
-
-; u00F0     lowercase eth
-:?*C:\[Sd::ð
-
-; u00DE     uppercase thorn
-:?*C:\[TP::Þ
-
-; u00FE     lowercase thorn
-:?*C:\[Tp::þ
-
-; u00DF     lowercase sharp s
-:?*C:\[ss::ß
-
-; u0131     i without tittle
-:?*C:\[.i::ı
-
-; u0237     j without tittle
-:?*C:\[.j::ȷ
-
-; # Ligatures and digraphs
-;;;;;;;;;;;;;;;;;;;;;;;;
-
-; uFB00     ff ligature +
-:?*C:\[ff::ﬀ
-
-; uFB01     fi ligature +
-:?*C:\[fi::ﬁ
-
-; uFB02     fl ligature +
-:?*C:\[fl::ﬂ
-
-; uFB03     ffi ligature +
-:?*C:\[Fi::ﬃ
-
-; uFB04     ffl ligature +
-:?*C:\[Fl::ﬄ
-
-; u00C6     AE ligature
-:?*C:\[AE::Æ
-
-; u00E6     ae ligature
-:?*C:\[ae::æ
-
-; u0152     OE ligature
-:?*C:\[OE::Œ
-
-; u0153     oe ligature
-:?*C:\[oe::œ
-
-; u0132     IJ digraph
-:?*C:\[IJ::Ĳ
-
-; u0133     ij digraph
-:?*C:\[ij::ĳ
-
-; u0141     L with stroke
-:?*C:\[/L::Ł
-
-; u0142     l with stroke
-:?*C:\[/l::ł
-
-; u00D8     O with stroke
-:?*C:\[/O::Ø
-
-; u00F8     o with stroke
-:?*C:\[/o::ø
-
-; # Accented characters
-;;;;;;;;;;;;;;;;;;;;;
-
-; u00C1     A acute
-:?*C:\['A::Á
-
-; u0106     C acute
-:?*C:\['C::Ć
-
-; u00C9     E acute
-:?*C:\['E::É
-
-; u00CD     I acute
-:?*C:\['I::Í
-
-; u00D3     O acute
-:?*C:\['O::Ó
-
-; u00DA     U acute
-:?*C:\['U::Ú
-
-; u00DD     Y acute
-:?*C:\['Y::Ý
-
-; u00E1     a acute
-:?*C:\['a::á
-
-; u0107     c acute
-:?*C:\['c::ć
-
-; u00E9     e acute
-:?*C:\['e::é
-
-; u00ED     i acute
-:?*C:\['i::í
-
-; u00F3     o acute
-:?*C:\['o::ó
-
-; u00FA     u acute
-:?*C:\['u::ú
-
-; u00FD     y acute
-:?*C:\['y::ý
-
-; u00C4     A dieresis
-:?*C:\[:A::Ä
-
-; u00CB     E dieresis
-:?*C:\[:E::Ë
-
-; u00CF     I dieresis
-:?*C:\[:I::Ï
-
-; u00D6     O dieresis
-:?*C:\[:O::Ö
-
-; u00DC     U dieresis
-:?*C:\[:U::Ü
-
-; u0178     Y dieresis
-:?*C:\[:Y::Ÿ
-
-; u00E4     a dieresis
-:?*C:\[:a::ä
-
-; u00EB     e dieresis
-:?*C:\[:e::ë
-
-; u00EF     i dieresis
-:?*C:\[:i::ï
-
-; u00F6     o dieresis
-:?*C:\[:o::ö
-
-; u00FC     u dieresis
-:?*C:\[:u::ü
-
-; u00FF     y dieresis
-:?*C:\[:y::ÿ
-
-; u00C2     A circumflex
-:?*C:\[^A::Â
-
-; u00CA     E circumflex
-:?*C:\[^E::Ê
-
-; u00CE     I circumflex
-:?*C:\[^I::Î
-
-; u00D4     O circumflex
-:?*C:\[^O::Ô
-
-; u00DB     U circumflex
-:?*C:\[^U::Û
-
-; u00E2     a circumflex
-:?*C:\[^a::â
-
-; u00EA     e circumflex
-:?*C:\[^e::ê
-
-; u00EE     i circumflex
-:?*C:\[^i::î
-
-; u00F4     o circumflex
-:?*C:\[^o::ô
-
-; u00FB     u circumflex
-:?*C:\[^u::û
-
-; u00C0     A grave
-:?*C:\[``A::À
-
-; u00C8     E grave
-:?*C:\[``E::È
-
-; u00CC     I grave
-:?*C:\[``I::Ì
-
-; u00D2     O grave
-:?*C:\[``O::Ò
-
-; u00D9     U grave
-:?*C:\[``U::Ù
-
-; u00E0     a grave
-:?*C:\[``a::à
-
-; u00E8     e grave
-:?*C:\[``e::è
-
-; u00EC     i grave
-:?*C:\[``i::ì
-
-; u00F2     o grave
-:?*C:\[``o::ò
-
-; u00F9     u grave
-:?*C:\[``u::ù
-
-; u00C3     A tilde
-:?*C:\[~A::Ã
-
-; u00D1     N tilde
-:?*C:\[~N::Ñ
-
-; u00D5     O tilde
-:?*C:\[~O::Õ
-
-; u00E3     a tilde
-:?*C:\[~a::ã
-
-; u00F1     n tilde
-:?*C:\[~n::ñ
-
-; u00F5     o tilde
-:?*C:\[~o::õ
-
-; u0160     S caron
-:?*C:\[vS::Š
-
-; u0161     s caron
-:?*C:\[vs::š
-
-; u017D     Z caron
-:?*C:\[vZ::Ž
-
-; u017E     z caron
-:?*C:\[vz::ž
-
-; u00C7     C cedilla
-:?*C:\[,C::Ç
-
-; u00E7     c cedilla
-:?*C:\[,c::ç
-
-; u00C5     A ring
-:?*C:\[oA::Å
-
-; u00E5     a ring
-:?*C:\[oa::å
-
-; # Accents
-;;;;;;;;;
-
-; u02DD     double acute accent
-:?*C:\[a"::˝
-
-; u00AF     macron accent
-:?*C:\[a-::¯
-
-; u02D9     dot accent
-:?*C:\[a.::˙
-
-; u005E     circumflex accent
-:?*C:\[a^::^
-
-; u00B4     acute accent +
-:?*C:\[aa::´
-
-; u0060     grave accent +
-:?*C:\[ga::``
-
-; u02D8     breve accent
-:?*C:\[ab::˘
-
-; u00B8     cedilla accent
-:?*C:\[ac::¸
-
-; u00A8     dieresis accent
-:?*C:\[ad::¨
-
-; u02C7     caron accent
-:?*C:\[ah::ˇ
-
-; u02DA     ring accent
-:?*C:\[ao::˚
-
-; u007E     tilde accent
-:?*C:\[a~::~
-
-; u02DB     hook accent
-:?*C:\[ho::˛
-
 ; # Quotation marks
 ;;;;;;;;;;;;;;;;;
 
@@ -1228,3 +931,301 @@
 
 ; u2423     Open box -
 :?*C:\[\_::␣
+
+; # Supplementary Latin letters
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; u00D0     uppercase eth
+:?*C:\[-D::Ð
+
+; u00F0     lowercase eth
+:?*C:\[Sd::ð
+
+; u00DE     uppercase thorn
+:?*C:\[TP::Þ
+
+; u00FE     lowercase thorn
+:?*C:\[Tp::þ
+
+; u00DF     lowercase sharp s
+:?*C:\[ss::ß
+
+; u0131     i without tittle
+:?*C:\[.i::ı
+
+; u0237     j without tittle
+:?*C:\[.j::ȷ
+
+; # Ligatures and digraphs
+;;;;;;;;;;;;;;;;;;;;;;;;
+
+; uFB00     ff ligature +
+:?*C:\[ff::ﬀ
+
+; uFB01     fi ligature +
+:?*C:\[fi::ﬁ
+
+; uFB02     fl ligature +
+:?*C:\[fl::ﬂ
+
+; uFB03     ffi ligature +
+:?*C:\[Fi::ﬃ
+
+; uFB04     ffl ligature +
+:?*C:\[Fl::ﬄ
+
+; u00C6     AE ligature
+:?*C:\[AE::Æ
+
+; u00E6     ae ligature
+:?*C:\[ae::æ
+
+; u0152     OE ligature
+:?*C:\[OE::Œ
+
+; u0153     oe ligature
+:?*C:\[oe::œ
+
+; u0132     IJ digraph
+:?*C:\[IJ::Ĳ
+
+; u0133     ij digraph
+:?*C:\[ij::ĳ
+
+; u0141     L with stroke
+:?*C:\[/L::Ł
+
+; u0142     l with stroke
+:?*C:\[/l::ł
+
+; u00D8     O with stroke
+:?*C:\[/O::Ø
+
+; u00F8     o with stroke
+:?*C:\[/o::ø
+
+; # Accented characters
+;;;;;;;;;;;;;;;;;;;;;
+
+; u00C1     A acute
+:?*C:\['A::Á
+
+; u0106     C acute
+:?*C:\['C::Ć
+
+; u00C9     E acute
+:?*C:\['E::É
+
+; u00CD     I acute
+:?*C:\['I::Í
+
+; u00D3     O acute
+:?*C:\['O::Ó
+
+; u00DA     U acute
+:?*C:\['U::Ú
+
+; u00DD     Y acute
+:?*C:\['Y::Ý
+
+; u00E1     a acute
+:?*C:\['a::á
+
+; u0107     c acute
+:?*C:\['c::ć
+
+; u00E9     e acute
+:?*C:\['e::é
+
+; u00ED     i acute
+:?*C:\['i::í
+
+; u00F3     o acute
+:?*C:\['o::ó
+
+; u00FA     u acute
+:?*C:\['u::ú
+
+; u00FD     y acute
+:?*C:\['y::ý
+
+; u00C4     A dieresis
+:?*C:\[:A::Ä
+
+; u00CB     E dieresis
+:?*C:\[:E::Ë
+
+; u00CF     I dieresis
+:?*C:\[:I::Ï
+
+; u00D6     O dieresis
+:?*C:\[:O::Ö
+
+; u00DC     U dieresis
+:?*C:\[:U::Ü
+
+; u0178     Y dieresis
+:?*C:\[:Y::Ÿ
+
+; u00E4     a dieresis
+:?*C:\[:a::ä
+
+; u00EB     e dieresis
+:?*C:\[:e::ë
+
+; u00EF     i dieresis
+:?*C:\[:i::ï
+
+; u00F6     o dieresis
+:?*C:\[:o::ö
+
+; u00FC     u dieresis
+:?*C:\[:u::ü
+
+; u00FF     y dieresis
+:?*C:\[:y::ÿ
+
+; u00C2     A circumflex
+:?*C:\[^A::Â
+
+; u00CA     E circumflex
+:?*C:\[^E::Ê
+
+; u00CE     I circumflex
+:?*C:\[^I::Î
+
+; u00D4     O circumflex
+:?*C:\[^O::Ô
+
+; u00DB     U circumflex
+:?*C:\[^U::Û
+
+; u00E2     a circumflex
+:?*C:\[^a::â
+
+; u00EA     e circumflex
+:?*C:\[^e::ê
+
+; u00EE     i circumflex
+:?*C:\[^i::î
+
+; u00F4     o circumflex
+:?*C:\[^o::ô
+
+; u00FB     u circumflex
+:?*C:\[^u::û
+
+; u00C0     A grave
+:?*C:\[``A::À
+
+; u00C8     E grave
+:?*C:\[``E::È
+
+; u00CC     I grave
+:?*C:\[``I::Ì
+
+; u00D2     O grave
+:?*C:\[``O::Ò
+
+; u00D9     U grave
+:?*C:\[``U::Ù
+
+; u00E0     a grave
+:?*C:\[``a::à
+
+; u00E8     e grave
+:?*C:\[``e::è
+
+; u00EC     i grave
+:?*C:\[``i::ì
+
+; u00F2     o grave
+:?*C:\[``o::ò
+
+; u00F9     u grave
+:?*C:\[``u::ù
+
+; u00C3     A tilde
+:?*C:\[~A::Ã
+
+; u00D1     N tilde
+:?*C:\[~N::Ñ
+
+; u00D5     O tilde
+:?*C:\[~O::Õ
+
+; u00E3     a tilde
+:?*C:\[~a::ã
+
+; u00F1     n tilde
+:?*C:\[~n::ñ
+
+; u00F5     o tilde
+:?*C:\[~o::õ
+
+; u0160     S caron
+:?*C:\[vS::Š
+
+; u0161     s caron
+:?*C:\[vs::š
+
+; u017D     Z caron
+:?*C:\[vZ::Ž
+
+; u017E     z caron
+:?*C:\[vz::ž
+
+; u00C7     C cedilla
+:?*C:\[,C::Ç
+
+; u00E7     c cedilla
+:?*C:\[,c::ç
+
+; u00C5     A ring
+:?*C:\[oA::Å
+
+; u00E5     a ring
+:?*C:\[oa::å
+
+; # Accents
+;;;;;;;;;
+
+; u02DD     double acute accent
+:?*C:\[a"::˝
+
+; u00AF     macron accent
+:?*C:\[a-::¯
+
+; u02D9     dot accent
+:?*C:\[a.::˙
+
+; u005E     circumflex accent
+:?*C:\[a^::^
+
+; u00B4     acute accent +
+:?*C:\[aa::´
+
+; u0060     grave accent +
+:?*C:\[ga::``
+
+; u02D8     breve accent
+:?*C:\[ab::˘
+
+; u00B8     cedilla accent
+:?*C:\[ac::¸
+
+; u00A8     dieresis accent
+:?*C:\[ad::¨
+
+; u02C7     caron accent
+:?*C:\[ah::ˇ
+
+; u02DA     ring accent
+:?*C:\[ao::˚
+
+; u007E     tilde accent
+:?*C:\[a~::~
+
+; u02DB     hook accent
+:?*C:\[ho::˛
+
