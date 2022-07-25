@@ -17,6 +17,11 @@
 ; A minus sign “-” in the comment indicates that the glyph name is not
 ; part of the groff-supported special characters.
 
+:?*:\[??::
+  Run "https://www.spinellis.gr/sw/unicode-hotstrings/troff.html"
+
+:?*C:\[\[::\[
+
 ; # Quotation marks
 ;;;;;;;;;;;;;;;;;
 

@@ -16,8 +16,13 @@
   h
 }
 
+# Skip non-hotstring entries
+/??/d
+/\\\[$/d
+
 # Hotstring rule
 /^:/ {
+
   # Convert it to title
   s/^:[^:]*:\(\\\[..[^:]*\)::\(.*\)/\n### \2 \1\n/
 

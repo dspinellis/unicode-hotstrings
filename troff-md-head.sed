@@ -40,4 +40,12 @@ You can find more information on the\
 }
 
 $a\
+\
+## Miscellaneous\
+\
+### &#92;[??\
+Open help page.\
+\
+### &#92;[&#92;[\
+Type `&#92;[`\
 
