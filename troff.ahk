@@ -374,6 +374,9 @@
 ; u2026     ellipsis -
 :?*C:\[el::…
 
+; u0387     Greek Ano Teleia
+:?*C:\[*;::·
+
 ; # Brackets
 ;;;;;;;;;;
 
