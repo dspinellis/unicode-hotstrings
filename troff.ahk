@@ -1,4 +1,4 @@
-;
+﻿;
 ; AutoHotkey hotstrings for troff and groff-inspired Unicode symbol entry
 ;
 ; The symbols are entered using the sequence \[xx for 2-character symbols
