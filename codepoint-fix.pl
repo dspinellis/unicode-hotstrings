@@ -5,16 +5,22 @@
 #
 
 use open qw(:std :utf8);
-binmode(STDOUT, ":utf8");
-while(<>) {
-	if (/^; (u[^ ]+) +(.*)/) {
-		$u = $1;
-		$rest = $2;
-		$rest =~ s/^ *\(.*\) *//;
-	} elsif (/^:[^:]*:\\\[((\`?..)|(\[[^]]+\]))::(.)/) {
-		$u2 = sprintf("u%04X", ord($4));
-		print "; $u2     $rest\n$_";
-	} else {
-		print;
-	}
+
+
+BEGIN {
+	binmode(STDOUT);
+	# Add BOM, required by AHK
+	print "\xEF\xBB\xBF";
+	binmode(STDOUT, ":utf8");
+}
+
+if (/^; (u[^ ]+) +(.*)/) {
+	$u = $1;
+	$rest = $2;
+	$rest =~ s/^ *\(.*\) *//;
+} elsif (/^:[^:]*:\\\[((\`?..)|(\[[^]]+\]))::(.)/) {
+	$u2 = sprintf("u%04X", ord($4));
+	print "; $u2     $rest\n$_";
+} else {
+	print;
 }
