@@ -3,22 +3,13 @@ def hex_to_char:
     ("0123456789abcdef" | split("") | with_entries({key:.value, value:.key}))
       as $hex_map |
 
-    # Pad hex number to even number of nibles
-    def pad: if (. | length) % 2 == 1 then "0" + . else . end;
-
     # Convert a single hex digit into its decimal value
-    def decode_nibble: $hex_map[ascii_downcase];
-
-    # Convert two hex digits into their decimal value
-    def decode_byte: (.[0:1]|decode_nibble * 16) + (.[1:2]|decode_nibble);
-
-    # Split hex number into byte pairs
-    def byte_pairs: range(0; length; 2) as $i | .[$i:$i+2];
+    def hex_to_dec: $hex_map[ascii_downcase];
 
     # Assemble array of decimal byte values into a single integer
-    def assemble: reduce .[] as $item (0; . * 256 + $item);
+    def assemble: reduce .[] as $item (0; . * 16 + $item);
 
-    [[pad | byte_pairs | decode_byte ] | assemble] | implode;
+    [[split("") | .[] | hex_to_dec] | assemble] | implode;
 
 # Convert an array of hexadecimal code point number strings into the string
 # they represent
