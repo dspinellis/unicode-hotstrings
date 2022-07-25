@@ -44,274 +44,274 @@
 ; Ligatures and digraphs
 ;;;;;;;;;;;;;;;;;;;;;;;;
 
-; u0066_0066        ff ligature +
+; uFB00     ff ligature +
 :?*C:\[ff::ﬀ
 
-; u0066_0069        fi ligature +
+; uFB01     fi ligature +
 :?*C:\[fi::ﬁ
 
-; u0066_006C        fl ligature +
+; uFB02     fl ligature +
 :?*C:\[fl::ﬂ
 
-; u0066_0066_0069   ffi ligature +
+; uFB03     ffi ligature +
 :?*C:\[Fi::ﬃ
 
-; u0066_0066_006C   ffl ligature +
+; uFB04     ffl ligature +
 :?*C:\[Fl::ﬄ
 
-; u00C6             AE ligature
+; u00C6     AE ligature
 :?*C:\[AE::Æ
 
-; u00E6             ae ligature
+; u00E6     ae ligature
 :?*C:\[ae::æ
 
-; u0152             OE ligature
+; u0152     OE ligature
 :?*C:\[OE::Œ
 
-; u0153             oe ligature
+; u0153     oe ligature
 :?*C:\[oe::œ
 
-; u0132             IJ digraph
+; u0132     IJ digraph
 :?*C:\[IJ::Ĳ
 
-; u0133             ij digraph
+; u0133     ij digraph
 :?*C:\[ij::ĳ
 
-; u0141             L with stroke
+; u0141     L with stroke
 :?*C:\[/L::Ł
 
-; u0142             l with stroke
+; u0142     l with stroke
 :?*C:\[/l::ł
 
-; u00D8             O with stroke
+; u00D8     O with stroke
 :?*C:\[/O::Ø
 
-; u00F8             o with stroke
+; u00F8     o with stroke
 :?*C:\[/o::ø
 
 ; Accented characters
 ;;;;;;;;;;;;;;;;;;;;;
 
-; u0041_0301   A acute
+; u00C1     A acute
 :?*C:\['A::Á
 
-; u0043_0301   C acute
+; u0106     C acute
 :?*C:\['C::Ć
 
-; u0045_0301   E acute
+; u00C9     E acute
 :?*C:\['E::É
 
-; u0049_0301   I acute
+; u00CD     I acute
 :?*C:\['I::Í
 
-; u004F_0301   O acute
+; u00D3     O acute
 :?*C:\['O::Ó
 
-; u0055_0301   U acute
+; u00DA     U acute
 :?*C:\['U::Ú
 
-; u0059_0301   Y acute
+; u00DD     Y acute
 :?*C:\['Y::Ý
 
-; u0061_0301   a acute
+; u00E1     a acute
 :?*C:\['a::á
 
-; u0063_0301   c acute
+; u0107     c acute
 :?*C:\['c::ć
 
-; u0065_0301   e acute
+; u00E9     e acute
 :?*C:\['e::é
 
-; u0069_0301   i acute
+; u00ED     i acute
 :?*C:\['i::í
 
-; u006F_0301   o acute
+; u00F3     o acute
 :?*C:\['o::ó
 
-; u0075_0301   u acute
+; u00FA     u acute
 :?*C:\['u::ú
 
-; u0079_0301   y acute
+; u00FD     y acute
 :?*C:\['y::ý
 
-; u0041_0308   A dieresis
+; u00C4     A dieresis
 :?*C:\[:A::Ä
 
-; u0045_0308   E dieresis
+; u00CB     E dieresis
 :?*C:\[:E::Ë
 
-; u0049_0308   I dieresis
+; u00CF     I dieresis
 :?*C:\[:I::Ï
 
-; u004F_0308   O dieresis
+; u00D6     O dieresis
 :?*C:\[:O::Ö
 
-; u0055_0308   U dieresis
+; u00DC     U dieresis
 :?*C:\[:U::Ü
 
-; u0059_0308   Y dieresis
+; u0178     Y dieresis
 :?*C:\[:Y::Ÿ
 
-; u0061_0308   a dieresis
+; u00E4     a dieresis
 :?*C:\[:a::ä
 
-; u0065_0308   e dieresis
+; u00EB     e dieresis
 :?*C:\[:e::ë
 
-; u0069_0308   i dieresis
+; u00EF     i dieresis
 :?*C:\[:i::ï
 
-; u006F_0308   o dieresis
+; u00F6     o dieresis
 :?*C:\[:o::ö
 
-; u0075_0308   u dieresis
+; u00FC     u dieresis
 :?*C:\[:u::ü
 
-; u0079_0308   y dieresis
+; u00FF     y dieresis
 :?*C:\[:y::ÿ
 
-; u0041_0302   A circumflex
+; u00C2     A circumflex
 :?*C:\[^A::Â
 
-; u0045_0302   E circumflex
+; u00CA     E circumflex
 :?*C:\[^E::Ê
 
-; u0049_0302   I circumflex
+; u00CE     I circumflex
 :?*C:\[^I::Î
 
-; u004F_0302   O circumflex
+; u00D4     O circumflex
 :?*C:\[^O::Ô
 
-; u0055_0302   U circumflex
+; u00DB     U circumflex
 :?*C:\[^U::Û
 
-; u0061_0302   a circumflex
+; u00E2     a circumflex
 :?*C:\[^a::â
 
-; u0065_0302   e circumflex
+; u00EA     e circumflex
 :?*C:\[^e::ê
 
-; u0069_0302   i circumflex
+; u00EE     i circumflex
 :?*C:\[^i::î
 
-; u006F_0302   o circumflex
+; u00F4     o circumflex
 :?*C:\[^o::ô
 
-; u0075_0302   u circumflex
+; u00FB     u circumflex
 :?*C:\[^u::û
 
-; u0041_0300   A grave
+; u00C0     A grave
 :?*C:\[``A::À
 
-; u0045_0300   E grave
+; u00C8     E grave
 :?*C:\[``E::È
 
-; u0049_0300   I grave
+; u00CC     I grave
 :?*C:\[``I::Ì
 
-; u004F_0300   O grave
+; u00D2     O grave
 :?*C:\[``O::Ò
 
-; u0055_0300   U grave
+; u00D9     U grave
 :?*C:\[``U::Ù
 
-; u0061_0300   a grave
+; u00E0     a grave
 :?*C:\[``a::à
 
-; u0065_0300   e grave
+; u00E8     e grave
 :?*C:\[``e::è
 
-; u0069_0300   i grave
+; u00EC     i grave
 :?*C:\[``i::ì
 
-; u006F_0300   o grave
+; u00F2     o grave
 :?*C:\[``o::ò
 
-; u0075_0300   u grave
+; u00F9     u grave
 :?*C:\[``u::ù
 
-; u0041_0303   A tilde
+; u00C3     A tilde
 :?*C:\[~A::Ã
 
-; u004E_0303   N tilde
+; u00D1     N tilde
 :?*C:\[~N::Ñ
 
-; u004F_0303   O tilde
+; u00D5     O tilde
 :?*C:\[~O::Õ
 
-; u0061_0303   a tilde
+; u00E3     a tilde
 :?*C:\[~a::ã
 
-; u006E_0303   n tilde
+; u00F1     n tilde
 :?*C:\[~n::ñ
 
-; u006F_0303   o tilde
+; u00F5     o tilde
 :?*C:\[~o::õ
 
-; u0053_030C   S caron
+; u0160     S caron
 :?*C:\[vS::Š
 
-; u0073_030C   s caron
+; u0161     s caron
 :?*C:\[vs::š
 
-; u005A_030C   Z caron
+; u017D     Z caron
 :?*C:\[vZ::Ž
 
-; u007A_030C   z caron
+; u017E     z caron
 :?*C:\[vz::ž
 
-; u0043_0327   C cedilla
+; u00C7     C cedilla
 :?*C:\[,C::Ç
 
-; u0063_0327   c cedilla
+; u00E7     c cedilla
 :?*C:\[,c::ç
 
-; u0041_030A   A ring
+; u00C5     A ring
 :?*C:\[oA::Å
 
-; u0061_030A   a ring
+; u00E5     a ring
 :?*C:\[oa::å
 
 ; Accents
 ;;;;;;;;;
 
-; u030B (u02DD)   double acute accent
+; u02DD     double acute accent
 :?*C:\[a"::˝
 
-; u0304 (u00AF)   macron accent
+; u00AF     macron accent
 :?*C:\[a-::¯
 
-; u0307 (u02D9)   dot accent
+; u02D9     dot accent
 :?*C:\[a.::˙
 
-; u0302 (u005E)   circumflex accent
+; u005E     circumflex accent
 :?*C:\[a^::^
 
-; u0301 (u00B4)   acute accent +
+; u00B4     acute accent +
 :?*C:\[aa::´
 
-; u0300 (u0060)   grave accent +
+; u0060     grave accent +
 :?*C:\[ga::``
 
-; u0306 (u02D8)   breve accent
+; u02D8     breve accent
 :?*C:\[ab::˘
 
-; u0327 (u00B8)   cedilla accent
+; u00B8     cedilla accent
 :?*C:\[ac::¸
 
-; u0308 (u00A8)   dieresis accent
+; u00A8     dieresis accent
 :?*C:\[ad::¨
 
-; u030C (u02C7)   caron accent
+; u02C7     caron accent
 :?*C:\[ah::ˇ
 
-; u030A (u02DA)   ring accent
+; u02DA     ring accent
 :?*C:\[ao::˚
 
-; u0303 (u007E)   tilde accent
+; u007E     tilde accent
 :?*C:\[a~::~
 
-; u0328 (u02DB)   hook accent
+; u02DB     hook accent
 :?*C:\[ho::˛
 
 ; Quotation marks
@@ -680,319 +680,319 @@
 ; u2234     therefore
 :?*C:\[tf::∴
 
-; u220e     end of proof -
+; u220E     end of proof -
 :?*C:\[pe::∎
 
 ; Mathematical symbols
 ;;;;;;;;;;;;;;;;;;;;;;
 
-; u00BD        one half symbol +
+; u00BD     one half symbol +
 :?*C:\[12::½
 
-; u2153        one third symbol -
+; u2153     one third symbol -
 :?*C:\[13::⅓
 
-; u2153        two thirds symbol -
+; u2154     two thirds symbol -
 :?*C:\[23::⅔
 
-; u00BC        one quarter symbol +
+; u00BC     one quarter symbol +
 :?*C:\[14::¼
 
-; u00BE        three quarters symbol +
+; u00BE     three quarters symbol +
 :?*C:\[34::¾
 
-; u2155        one fifth symbol -
+; u2155     one fifth symbol -
 :?*C:\[15::⅕
 
-; u2155        two fifths symbol -
+; u2156     two fifths symbol -
 :?*C:\[25::⅖
 
-; u2157        three fifths symbol -
+; u2157     three fifths symbol -
 :?*C:\[35::⅗
 
-; u2158        fourt fifths symbol -
+; u2158     fourt fifths symbol -
 :?*C:\[45::⅘
 
-; u2159        one sixth symbol -
+; u2159     one sixth symbol -
 :?*C:\[16::⅙
 
-; u215a        five sixths symbol -
+; u215A     five sixths symbol -
 :?*C:\[56::⅚
 
-; u215B        one eighth symbol
+; u215B     one eighth symbol
 :?*C:\[18::⅛
 
-; u215C        three eighths symbol
+; u215C     three eighths symbol
 :?*C:\[38::⅜
 
-; u215D        five eighths symbol
+; u215D     five eighths symbol
 :?*C:\[58::⅝
 
-; u215E        seven eighths symbol
+; u215E     seven eighths symbol
 :?*C:\[78::⅞
 
-; u2070        superscript zero -
+; u2070     superscript zero -
 :?*C:\[S0::⁰
 
-; u00B9        superscript one
+; u00B9     superscript one
 :?*C:\[S1::¹
 
-; u00B2        superscript two
+; u00B2     superscript two
 :?*C:\[S2::²
 
-; u00B3        superscript three
+; u00B3     superscript three
 :?*C:\[S3::³
 
-; u2074        superscript four -
+; u2074     superscript four -
 :?*C:\[S4::⁴
 
-; u2075        superscript five -
+; u2075     superscript five -
 :?*C:\[S5::⁵
 
-; u2076        superscript six -
+; u2076     superscript six -
 :?*C:\[S6::⁶
 
-; u2077        superscript seven -
+; u2077     superscript seven -
 :?*C:\[S7::⁷
 
-; u2078        superscript eight -
+; u2078     superscript eight -
 :?*C:\[S8::⁸
 
-; u2079        superscript nine -
+; u2079     superscript nine -
 :?*C:\[S9::⁹
 
-; u2071        superscript i -
+; u2071     superscript i -
 :?*C:\[Si::ⁱ
 
-; u207f        superscript n -
+; u207F     superscript n -
 :?*C:\[Sn::ⁿ
 
-; u207a        superscript + -
+; u207A     superscript + -
 :?*C:\[S+::⁺
 
-; u207b        superscript - -
+; u207B     superscript - -
 :?*C:\[S-::⁻
 
-; u2080        subscript zero -
+; u2080     subscript zero -
 :?*C:\[s0::₀
 
-; u2081        subscript one -
+; u2081     subscript one -
 :?*C:\[s1::₁
 
-; u2082        subscript two -
+; u2082     subscript two -
 :?*C:\[s2::₂
 
-; u2083        subscript three -
+; u2083     subscript three -
 :?*C:\[s3::₃
 
-; u2084        subscript four -
+; u2084     subscript four -
 :?*C:\[s4::₄
 
-; u2085        subscript five -
+; u2085     subscript five -
 :?*C:\[s5::₅
 
-; u2086        subscript six -
+; u2086     subscript six -
 :?*C:\[s6::₆
 
-; u2087        subscript seven -
+; u2087     subscript seven -
 :?*C:\[s7::₇
 
-; u2088        subscript eight -
+; u2088     subscript eight -
 :?*C:\[s8::₈
 
-; u2089        subscript nine -
+; u2089     subscript nine -
 :?*C:\[s9::₉
 
-; u2081        subscript i -
+; u2071     subscript i -
 :?*C:\[si::ⁱ
 
-; u2099        subscript n -
+; u2099     subscript n -
 :*C:\[sn::ₙ
 
-; u208a        subscript + -
+; u208A     subscript + -
 :?*C:\[s+::₊
 
-; u208b        subscript - -
+; u208B     subscript - -
 :?*C:\[s-::₋
 
-; u002B        special variant of plus +
+; u002B     special variant of plus +
 :?*C:\[pl::+
 
-; u002D        minus
+; u002D     minus
 :?*O:\[[-]::-
 
-; u2212        special variant of minus +
+; u2212     special variant of minus +
 :?*C:\[mi::−
 
-; u2213        minus-plus
+; u2213     minus-plus
 :?*C:\[-+::∓
 
-; u00B1        plus-minus +
+; u00B1     plus-minus +
 :?*C:\[+-::±
 
-; u00B7        centered period
+; u00B7     centered period
 :?*C:\[pc::·
 
-; u22C5        multiplication dot
+; u22C5     multiplication dot
 :?*C:\[md::⋅
 
-; u00D7        multiplication sign +
+; u00D7     multiplication sign +
 :?*C:\[mu::×
 
-; u2297        circled times
+; u2297     circled times
 :?*C:\[c*::⊗
 
-; u2295        circled plus
+; u2295     circled plus
 :?*C:\[c+::⊕
 
-; u00F7        division sign +
+; u00F7     division sign +
 :?*C:\[di::÷
 
-; u2044        fraction slash
+; u2044     fraction slash
 :?*C:\[f/::⁄
 
-; u2217        mathematical asterisk +
+; u2217     mathematical asterisk +
 :?*C:\[**::∗
 
-; u2264        less than or equal to +
+; u2264     less than or equal to +
 :?*C:\[<=::≤
 
-; u2265        greater than or equal to +
+; u2265     greater than or equal to +
 :?*C:\[>=::≥
 
-; u226A        much less than
+; u226A     much less than
 :?*C:\[<<::≪
 
-; u226B        much greater than
+; u226B     much greater than
 :?*C:\[>>::≫
 
-; u003D        special variant of equals +
+; u003D     special variant of equals +
 :?*C:\[eq::=
 
-; u003D_0338   not equals +
+; u2260     not equals +
 :?*C:\[!=::≠
 
-; u2261        equivalent +
+; u2261     equivalent +
 :?*C:\[==::≡
 
-; u2261_0338   not equivalent
+; u2262     not equivalent
 :?*C:\[ne::≢
 
-; u2245        approximately equal to
+; u2245     approximately equal to
 :?*C:\[=~::≅
 
-; u2243        asymptotically equal to +
+; u2243     asymptotically equal to +
 :?*C:\[|=::≃
 
-; u223C        similar to, tilde operator +
+; u223C     similar to, tilde operator +
 :?*C:\[ap::∼
 
-; u2248        almost equal to
+; u2248     almost equal to
 :?*C:\[~~::≈
 
-; u2248        almost equal to
+; u2248     almost equal to
 :?*C:\[~=::≈
 
-; u221D        proportional to +
+; u221D     proportional to +
 :?*C:\[pt::∝
 
-; u2205        empty set +
+; u2205     empty set +
 :?*C:\[es::∅
 
-; u2208        element of a set +
+; u2208     element of a set +
 :?*C:\[mo::∈
 
-; u2208_0338   not element of set
+; u2209     not element of set
 :?*C:\[nm::∉
 
-; u2282        proper subset +
+; u2282     proper subset +
 :?*C:\[sb::⊂
 
-; u2282_0338   not subset
+; u2284     not subset
 :?*C:\[nb::⊄
 
-; u2283        proper superset +
+; u2283     proper superset +
 :?*C:\[sp::⊃
 
-; u2283_0338   not superset
+; u2285     not superset
 :?*C:\[nc::⊅
 
-; u2286        subset or equal +
+; u2286     subset or equal +
 :?*C:\[ib::⊆
 
-; u2287        superset or equal +
+; u2287     superset or equal +
 :?*C:\[ip::⊇
 
-; u2229        intersection, cap +
+; u2229     intersection, cap +
 :?*C:\[ca::∩
 
-; u222A        union, cup +
+; u222A     union, cup +
 :?*C:\[cu::∪
 
-; u2220        angle
+; u2220     angle
 :?*C:\[/_::∠
 
-; u22A5        perpendicular
+; u22A5     perpendicular
 :?*C:\[pp::⊥
 
-; u222B        integral +
+; u222B     integral +
 :?*C:\[is::∫
 
-; u2211        summation
+; u2211     summation
 :?*O:\[[sum]::∑
 
-; u220F        product
+; u220F     product
 :?*O:\[[product]::∏
 
-; u2210        coproduct
+; u2210     coproduct
 :?*O:\[[coproduct]::∐
 
-; u2207        gradient +
+; u2207     gradient +
 :?*C:\[gr::∇
 
-; u221A        radical sign, square root +
+; u221A     radical sign, square root +
 :?*C:\[sr::√
 
-; u203E        radical extension, overline +
+; u203E     radical extension, overline +
 :?*C:\[rn::‾
 
-; u221A        radical sign, square root
+; u221A     radical sign, square root
 :?*O:\[[sqrt]::√
 
-; u2308        left ceiling +
+; u2308     left ceiling +
 :?*C:\[lc::⌈
 
-; u2309        right ceiling +
+; u2309     right ceiling +
 :?*C:\[rc::⌉
 
-; u230A        left floor +
+; u230A     left floor +
 :?*C:\[lf::⌊
 
-; u230B        right floor +
+; u230B     right floor +
 :?*C:\[rf::⌋
 
-; u221E        infinity +
+; u221E     infinity +
 :?*C:\[if::∞
 
-; u2135        aleph symbol
+; u2135     aleph symbol
 :?*C:\[Ah::ℵ
 
-; u0192        lowercase f with hook, function
+; u0192     lowercase f with hook, function
 :?*C:\[Fn::ƒ
 
-; u2111        blackletter I, imaginary part
+; u2111     blackletter I, imaginary part
 :?*C:\[Im::ℑ
 
-; u211C        blackletter R, real part
+; u211C     blackletter R, real part
 :?*C:\[Re::ℜ
 
-; u2118        Weierstrass p
+; u2118     Weierstrass p
 :?*C:\[wp::℘
 
-; u2202        partial differential
+; u2202     partial differential
 :?*C:\[pd::∂
 
-; u210F        h bar
+; u210F     h bar
 :?*C:\[-h::ℏ
 
 ; Greek glyphs
@@ -1157,7 +1157,7 @@
 ; u03F5     variant epsilon (lunate)
 :?*C:\[+e::ϵ
 
-; u210d     double-struct capital H -
+; u210D     double-struct capital H -
 :?*C:\[dH::ℍ
 
 ; u2115     double-struct capital N -
@@ -1166,10 +1166,10 @@
 ; u2119     double-struct capital P -
 :?*C:\[dP::ℙ
 
-; u211a     double-struct capital Q -
+; u211A     double-struct capital Q -
 :?*C:\[dQ::ℚ
 
-; u211d     double-struct capital R -
+; u211D     double-struct capital R -
 :?*C:\[dR::ℝ
 
 ; u2124     double-struct capital Z -
@@ -1205,13 +1205,13 @@
 ; u2409     Tab -
 :?*C:\[\t::␉
 
-; u240a     Line feed -
+; u240A     Line feed -
 :?*C:\[\n::␊
 
-; u240d     Carriage return -
+; u240D     Carriage return -
 :?*C:\[\r::␍
 
-; u241b     Escape -
+; u241B     Escape -
 :?*C:\[\e::␛
 
 ; u2420     Space -
