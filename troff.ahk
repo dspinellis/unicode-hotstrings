@@ -41,9 +41,6 @@
 ; u0237     j without tittle
 :?*C:\[.j::ȷ
 
-; u0192     lowercase f with hook, function
-:?*C:\[Fn::ƒ
-
 ; Ligatures and digraphs
 ;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -535,9 +532,6 @@
 
 ; u005F     underscore, low line +
 :?*C:\[ul::_
-
-; u203E     radical extension, overline +
-:?*C:\[rn::‾
 
 ; ---       baseline rule +
 :?*C:\[ru::_
