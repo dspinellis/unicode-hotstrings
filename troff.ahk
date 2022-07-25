@@ -88,18 +88,6 @@
 ; # Brackets
 ;;;;;;;;;;
 
-; u005B     left square bracket
-:?*C:\[lB::[
-
-; u005D     right square bracket
-:?*C:\[rB::]
-
-; u007B     left brace
-:?*C:\[lC::{
-
-; u007D     right brace
-:?*C:\[rC::}
-
 ; u27E8     left angle bracket
 :?*C:\[la::⟨
 

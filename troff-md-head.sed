@@ -43,9 +43,7 @@ $a\
 \
 ## Miscellaneous\
 \
-### &#92;[??\
-Open help page.\
+### To open a help page type «&#92;[??»\
 \
-### &#92;[&#92;[\
-Type `&#92;[`\
+### To get «&#92;[» type «&#92;[&#92;[»\
 
