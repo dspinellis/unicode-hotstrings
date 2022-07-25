@@ -533,9 +533,6 @@
 ; u005F     underscore, low line +
 :?*C:\[ul::_
 
-; ---       baseline rule +
-:?*C:\[ru::_
-
 ; u00A6     broken bar
 :?*C:\[bb::¦
 
@@ -809,7 +806,7 @@
 ; u2081        subscript i -
 :?*C:\[si::ⁱ
 
-; 2099        subscript n -
+; u2099        subscript n -
 :*C:\[sn::ₙ
 
 ; u208a        subscript + -
