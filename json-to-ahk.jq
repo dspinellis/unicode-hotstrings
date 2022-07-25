@@ -25,17 +25,15 @@ def url_to_unicode:
     split("-");
 
 [
-  "; File auto-generated from https://api.github.com/emojis via json-to-ahk.jq",
-  "#Hotstring EndChars :"
+  "; File auto-generated from https://api.github.com/emojis via json-to-ahk.jq"
 ] +
 [
-. |
-# Convert map into key-value pairs
-to_entries |
-# Remove non-Unicode entries
-.[] | select(.value | contains("/unicode/")) |
-# Assemble emoiji names and their values into AutoHotkey hotstrings
-(":O:\\`:" + (.key | gsub("_"; " ")) + "::" +
-  (.value | url_to_unicode | hex_array_to_string ))
+  . |
+  # Convert map into key-value pairs
+  to_entries |
+  # Remove non-Unicode entries
+  .[] | select(.value | contains("/unicode/")) |
+  # Assemble emoiji names and their values into AutoHotkey hotstrings
+  (":O:\\`:" + .key + "::" + (.value | url_to_unicode | hex_array_to_string ))
 ] |
 join("\n")
