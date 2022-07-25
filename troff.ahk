@@ -17,7 +17,7 @@
 ; A minus sign “-” in the comment indicates that the glyph name is not
 ; part of the groff-supported special characters.
 
-; Supplementary Latin letters
+; # Supplementary Latin letters
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; u00D0     uppercase eth
@@ -41,7 +41,7 @@
 ; u0237     j without tittle
 :?*C:\[.j::ȷ
 
-; Ligatures and digraphs
+; # Ligatures and digraphs
 ;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; uFB00     ff ligature +
@@ -89,7 +89,7 @@
 ; u00F8     o with stroke
 :?*C:\[/o::ø
 
-; Accented characters
+; # Accented characters
 ;;;;;;;;;;;;;;;;;;;;;
 
 ; u00C1     A acute
@@ -272,7 +272,7 @@
 ; u00E5     a ring
 :?*C:\[oa::å
 
-; Accents
+; # Accents
 ;;;;;;;;;
 
 ; u02DD     double acute accent
@@ -314,7 +314,7 @@
 ; u02DB     hook accent
 :?*C:\[ho::˛
 
-; Quotation marks
+; # Quotation marks
 ;;;;;;;;;;;;;;;;;
 
 ; u201E     low double comma quote
@@ -353,7 +353,7 @@
 ; u203A     right single chevron
 :?*C:\[fc::›
 
-; Punctuation
+; # Punctuation
 ;;;;;;;;;;;;;
 
 ; u00A1     inverted exclamation mark
@@ -374,7 +374,7 @@
 ; u2026     ellipsis -
 :?*C:\[el::…
 
-; Brackets
+; # Brackets
 ;;;;;;;;;;
 
 ; u005B     left square bracket
@@ -479,7 +479,7 @@
 ; u23A0     right parenthesis bottom
 :?*O:\[[parenrightbt]::⎠
 
-; Arrows
+; # Arrows
 ;;;;;;;;
 
 ; u2190     horizontal arrow left +
@@ -521,7 +521,7 @@
 ; u23AF     horizontal arrow extension
 :?*C:\[an::⎯
 
-; Rules and lines
+; # Rules and lines
 ;;;;;;;;;;;;;;;;;
 
 ; u007C     bar
@@ -542,7 +542,7 @@
 ; u005C     reverse solidus
 :?*C:\[rs::\
 
-; Text markers
+; # Text markers
 ;;;;;;;;;;;;;;
 
 ; u25CB     circle +
@@ -587,7 +587,7 @@
 ; u2713     check mark
 :?*C:\[OK::✓
 
-; Legal symbols
+; # Legal symbols
 ;;;;;;;;;;;;;;;
 
 ; u00A9     copyright sign +
@@ -599,7 +599,7 @@
 ; u2122     trade mark sign
 :?*C:\[tm::™
 
-; Currency symbols
+; # Currency symbols
 ;;;;;;;;;;;;;;;;;;
 
 ; u0024     dollar sign
@@ -626,7 +626,7 @@
 ; u20A8     Rupee sign -
 :?*C:\[Rs::₨
 
-; Units
+; # Units
 ;;;;;;;
 
 ; u00B0     degree sign +
@@ -650,7 +650,7 @@
 ; u00BA     masculine ordinal indicator
 :?*C:\[Om::º
 
-; Logical symbols
+; # Logical symbols
 ;;;;;;;;;;;;;;;;;
 
 ; u2227     logical and
@@ -683,7 +683,7 @@
 ; u220E     end of proof -
 :?*C:\[pe::∎
 
-; Mathematical symbols
+; # Mathematical symbols
 ;;;;;;;;;;;;;;;;;;;;;;
 
 ; u00BD     one half symbol +
@@ -995,7 +995,7 @@
 ; u210F     h bar
 :?*C:\[-h::ℏ
 
-; Greek glyphs
+; # Greek glyphs
 ;;;;;;;;;;;;;;
 
 ; u0391     uppercase alpha +
@@ -1157,25 +1157,28 @@
 ; u03F5     variant epsilon (lunate)
 :?*C:\[+e::ϵ
 
-; u210D     double-struct capital H -
+; # Double-struck letter forms
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; u210D     double-struck capital H -
 :?*C:\[dH::ℍ
 
-; u2115     double-struct capital N -
+; u2115     double-struck capital N -
 :?*C:\[dN::ℕ
 
-; u2119     double-struct capital P -
+; u2119     double-struck capital P -
 :?*C:\[dP::ℙ
 
-; u211A     double-struct capital Q -
+; u211A     double-struck capital Q -
 :?*C:\[dQ::ℚ
 
-; u211D     double-struct capital R -
+; u211D     double-struck capital R -
 :?*C:\[dR::ℝ
 
-; u2124     double-struct capital Z -
+; u2124     double-struck capital Z -
 :?*C:\[dZ::ℤ
 
-; Playing card symbols
+; # Playing card symbols
 ;;;;;;;;;;;;;;;;;;;;;;
 
 ; u2663     solid club suit
@@ -1190,7 +1193,7 @@
 ; u2666     solid diamond suit
 :?*C:\[DI::♦
 
-; Control symbols
+; # Control symbols
 ;;;;;;;;;;;;;;;;;;;;;;
 
 ; u2400     Null -
