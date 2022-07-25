@@ -374,7 +374,7 @@
 ; u2026     ellipsis -
 :?*C:\[el::…
 
-; u0387     Greek Ano Teleia
+; u0387     Greek Ano Teleia -
 :?*C:\[*;::·
 
 ; # Brackets
@@ -589,6 +589,9 @@
 
 ; u2713     check mark
 :?*C:\[OK::✓
+
+; u2717     Ballot X -
+:?*C:\[XX::✗
 
 ; # Legal symbols
 ;;;;;;;;;;;;;;;
