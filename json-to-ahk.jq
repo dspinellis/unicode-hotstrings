@@ -35,6 +35,6 @@ to_entries |
 # Remove non-Unicode entries
 .[] | select(.value | contains("/unicode/")) |
 # Assemble emoiji names and their values into AutoHotkey hotstrings
-(":?*O:\\`:" + .key + "::" + (.value | url_to_unicode | hex_array_to_string ))
+(":O:\\`:" + .key + "::" + (.value | url_to_unicode | hex_array_to_string ))
 ] |
 join("\n")
