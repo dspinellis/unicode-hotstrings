@@ -1,4 +1,4 @@
-emojis.ahk: emojis.js json-to-ahk.jq
+../emojis.ahk: emojis.js json-to-ahk.jq
 	printf '\xEF\xBB\xBF' >$@
 	jq  -r -f json-to-ahk.jq  <emojis.js >>$@
 
@@ -12,9 +12,9 @@ verify:
 codepoint-fix:
 	perl -i codepoint-fix.pl troff.ahk
 
-troff.md: troff.ahk troff-md-body.sed troff-md-head.sed
-	sed -nf troff-md-head.sed troff.ahk >$@
-	sed -nf troff-md-body.sed troff.ahk >>$@
+troff.md: ../troff.ahk troff-md-body.sed troff-md-head.sed
+	sed -nf troff-md-head.sed ../troff.ahk >$@
+	sed -nf troff-md-body.sed ../troff.ahk >>$@
 
 troff.html: troff.md
 	pandoc --from markdown --metadata pagetitle="Troff hotstrings" --css=pandoc.css -s $? -o $@
