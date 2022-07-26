@@ -25,7 +25,11 @@ def url_to_unicode:
     split("-");
 
 [
-  "; File auto-generated from https://api.github.com/emojis via json-to-ahk.jq"
+  "; File auto-generated from https://api.github.com/emojis via json-to-ahk.jq",
+  "",
+  ":?*:\\`:?::",
+  "  Run \"https://www.spinellis.gr/sw/unicode-hotstrings/emojis.html\"",
+  ""
 ] +
 [
   . |
