@@ -3,8 +3,9 @@ This repository contains
 [GitHub Markdown](https://www.spinellis.gr/sw/unicode-hotstrings/emojis.html) and
 troff-inspired
 [extended typography](https://www.spinellis.gr/sw/unicode-hotstrings/troff.html)
-[AutoHotkey](https://www.autohotkey.com/) escapes
-for entering hundreds of useful Unicode characters.
+hotstrings for the
+[AutoHotkey](https://www.autohotkey.com/) program,
+through which one can enter thousands of useful Unicode characters.
 
 ## Installation
 * Install the `emojis.ahk` and `troff.ahk` in the location where you keep
@@ -28,3 +29,21 @@ for entering hundreds of useful Unicode characters.
 * Type «&#92;:?» to open a
   [web page](https://www.spinellis.gr/sw/unicode-hotstrings/emojis.html)
   with all available emoji escapes.
+
+## Common emojis
+Here are the mnemonics for the [ten most used emojis](https://home.unicode.org/emoji/emoji-frequency/).
+
+* heart → ❤
+* +1 → 👍
+* blush → 😊
+* heart\_eyes → 😍
+* joy → 😂
+* kissing\_heart → 😘
+* pray → 🙏
+* rofl → 🤣
+* smiling\_face\_with\_three\_hearts → 🥰
+* sob → 😭
+
+## See also
+* [Unicode input](https://en.wikipedia.org/wiki/Unicode_input)
+* [GNU roff special character and glyph repertoire](https://man7.org/linux/man-pages/man7/groff_char.7.html)
