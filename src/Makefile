@@ -1,3 +1,8 @@
+WEBDIR=$(HOME)/pubs/web/home/sw/unicode-hotstrings
+
+all: ../emojis.ahk $(WEBDIR)/troff.html $(WEBDIR)/emojis.html \
+	$(WEBDIR)/pandoc.css
+
 ../emojis.ahk: emojis.js json-to-ahk.jq
 	printf '\xEF\xBB\xBF' >$@
 	jq  -r -f json-to-ahk.jq  <emojis.js >>$@
@@ -10,11 +15,17 @@ verify:
 	! sed -n 's/`//g;s/.*\\\[\(..\):.*/\1/p' troff.ahk  | sort | uniq -d | grep .
 
 codepoint-fix:
-	perl -i codepoint-fix.pl troff.ahk
+	perl -i codepoint-fix.pl ../troff.ahk
 
 troff.md: ../troff.ahk troff-md-body.sed troff-md-head.sed
 	sed -nf troff-md-head.sed ../troff.ahk >$@
 	sed -nf troff-md-body.sed ../troff.ahk >>$@
 
-troff.html: troff.md
-	pandoc --from markdown --metadata pagetitle="Troff hotstrings" --css=pandoc.css -s $? -o $@
+$(WEBDIR)/troff.html: troff.md
+	pandoc --from markdown --metadata pagetitle="Troff hotstrings" --css=pandoc.css -s $? -o - >$@
+
+$(WEBDIR)/emojis.html: emojis.html
+	cp $? $@
+
+$(WEBDIR)/pandoc.css: pandoc.css
+	cp $? $@
