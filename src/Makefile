@@ -17,9 +17,10 @@
 #
 
 WEBDIR=$(HOME)/pubs/web/home/sw/unicode-hotstrings
-
-all: ../emojis.ahk $(WEBDIR)/troff.html $(WEBDIR)/emojis.html \
+TARGETS=../emojis.ahk $(WEBDIR)/troff.html $(WEBDIR)/emojis.html \
 	$(WEBDIR)/pandoc.css
+
+all: $(TARGETS) # Help: Build AutoHotkey files and documentation
 
 ../emojis.ahk: emojis.js json-to-ahk.jq
 	printf '\xEF\xBB\xBF' >$@
@@ -28,11 +29,11 @@ all: ../emojis.ahk $(WEBDIR)/troff.html $(WEBDIR)/emojis.html \
 emojis.js:
 	curl -o $@ https://api.github.com/emojis
 
-verify:
+verify: # Help: Verify the there are no duplicate definitions in troff.ahk
 	@echo Looking for duplicate two-letter hotstrings
 	! sed -n 's/`//g;s/.*\\\[\(..\):.*/\1/p' troff.ahk  | sort | uniq -d | grep .
 
-codepoint-fix:
+codepoint-fix: # Help: Fix the Unicode codepoint numbers listed in troff.ahk
 	perl -i codepoint-fix.pl ../troff.ahk
 
 troff.md: ../troff.ahk troff-md-body.sed troff-md-head.sed
@@ -47,3 +48,7 @@ $(WEBDIR)/emojis.html: emojis.html
 
 $(WEBDIR)/pandoc.css: pandoc.css
 	cp $? $@
+
+help: # Help: Show this help message
+	@echo 'The following make targets are available.'
+	@sed -n 's/^\([^:]*:\).*# [H]elp: \(.*\)/"%-20s %s\\n" "\1" "\2"/p' Makefile | xargs -n 3 printf | sort
