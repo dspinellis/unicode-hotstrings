@@ -385,8 +385,8 @@
 ; u220E     end of proof -
 :?*C:\[pe::∎
 
-; # Mathematical symbols
-;;;;;;;;;;;;;;;;;;;;;;
+; # Fractions
+;;;;;;;;;;;;;
 
 ; u00BD     one half symbol +
 :?*C:\[12::½
@@ -432,6 +432,9 @@
 
 ; u215E     seven eighths symbol
 :?*C:\[78::⅞
+
+; # Subscripts and superscripts
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; u2070     superscript zero -
 :?*C:\[S0::⁰
@@ -516,6 +519,9 @@
 
 ; u208B     subscript - -
 :?*C:\[s-::₋
+
+; # Mathematical symbols
+;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; u002B     special variant of plus +
 :?*C:\[pl::+
