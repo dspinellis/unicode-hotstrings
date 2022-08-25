@@ -22,13 +22,11 @@ through which one can enter thousands of useful Unicode characters.
 * Type «&#92;[xx» to get the character with the mnemonic _xx_,
   e.g. «&#92;[->» to get →.
 * Type «&#92;[??» to open a
-  [web page](https://www.spinellis.gr/sw/unicode-hotstrings/troff.html)
-  with all available extended character escapes.
+  [web page with all available extended character escapes](https://www.spinellis.gr/sw/unicode-hotstrings/troff.html).
 * Type «&#92;:xyz» followed by a non-word character,
   to get the emoji named _xyz_, e.g. «&#92;:+1» to get 👍.
 * Type «&#92;:?» to open a
-  [web page](https://www.spinellis.gr/sw/unicode-hotstrings/emojis.html)
-  with all available emoji escapes.
+  [web page with all available emoji escapes](https://www.spinellis.gr/sw/unicode-hotstrings/emojis.html).
 
 ## Common emojis
 Here are the mnemonics for the [ten most used emojis](https://home.unicode.org/emoji/emoji-frequency/).
