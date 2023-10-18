@@ -85,6 +85,9 @@
 ; u0387     Greek Ano Teleia -
 :?*C:\[*;::·
 
+; u00A0     Non break space
+:?*C:\[ns:: 
+
 ; # Brackets
 ;;;;;;;;;;
 
