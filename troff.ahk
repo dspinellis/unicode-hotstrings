@@ -512,7 +512,7 @@
 :?*C:\[s9::₉
 
 ; u2071     subscript i -
-:?*C:\[si::ⁱ
+:?*C:\[si::ᵢ
 
 ; u2099     subscript n -
 :*C:\[sn::ₙ
